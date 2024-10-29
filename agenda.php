@@ -2,16 +2,17 @@
 
 /*
 
-Title: Understanding Dependency Injection in PHP Object-Oriented Programming
+Title: Understanding Comparing  objects in PHP Object-Oriented Programming
 
 Agenda:
-What is Dependency Injection?
-Example of Dependency Injection with Tight Coupling
-Dependency Injection: The Right Way
+
+1. == compares the values (properties) of two objects.
+2. === compares whether two objects are the same instance (reference).
 
 
 
-Dependency Injection (DI) is a design pattern in which an object receives other objects it depends on, rather than creating those dependencies itself. This pattern decouples the usage of a class from its creation, making code more modular, testable, and easier to maintain.
+PHP provides a way to compare objects either by reference or by comparing their properties. Using == compares if the objects have the same properties, while === checks if they are the exact same instance.
 
-In simple terms, DI allows us to "inject" dependencies (like a database connection or logger) into a class, rather than the class creating those dependencies internally.
+
 */ 
+
