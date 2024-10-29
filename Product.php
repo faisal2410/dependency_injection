@@ -12,6 +12,11 @@ class Product
     }
 }
 
+
+
+// Usage example
+
+/*
 $product =new Product("Laptop",1000);
 
 $serializeProduct=serialize($product);
@@ -21,3 +26,4 @@ $serializeProduct=serialize($product);
 $unserializedProduct=unserialize($serializeProduct);
 
 echo $unserializedProduct->price;
+*/ 
