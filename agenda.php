@@ -2,25 +2,24 @@
 
 /*
 
-Title: Iterating Over Objects in PHP Object-Oriented Programming
+Title: Understanding Traits in PHP Object-Oriented Programming
 
 Agenda:
-
-1.Introduction to Object Iteration in PHP
-2.The Iterator Interface in PHP
-3.Implementing the Iterator Interface in a Class
-4.Using foreach to Iterate Over an Object
-5.Practical Code Example: Building an Iterable Product Collection
+What are Traits?
+Defining and Using Traits
+Using Multiple Traits in a Single Class
 
 
 
-iterating over objects: Sometimes, we have objects containing a list of items that we need to access one by one, much like how we iterate through arrays. In PHP, iterating over objects is made easy with the Iterator interface. Let's see how to make our classes iterable."
+In PHP, a Trait is a mechanism that allows us to reuse code across different classes without using inheritance. Traits help solve the issue of single inheritance by letting us inject specific behavior or methods into classes.
 
-The Iterator Interface in PHP:
+Unlike classes, traits cannot be instantiated on their own but are meant to be used inside a class. Think of traits as reusable sets of methods that can be shared across multiple classes without requiring those classes to be directly related.
 
-PHP has a built-in interface called Iterator that allows us to define custom logic for object iteration. This interface requires implementing several methods: current(), key(), next(), rewind(), and valid(). These methods help us control how an object will behave during iteration.
+Key Points:
 
-https://www.php.net/manual/en/class.iterator.php
+Traits allow us to reuse code across multiple classes.
+Traits help with code organization and reduce duplication.
+Traits cannot be instantiated.
 
 
 
